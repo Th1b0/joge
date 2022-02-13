@@ -1,4 +1,4 @@
-.container-about {
+.container-about-end {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -12,12 +12,12 @@
   color: #f2f2f2;
 }
 
-.container-about img {
+.container-about-end img {
   width: 28%;
   height: auto;
 }
 
-.container-about div {
+.container-about-end div {
   width: 550px;
   height: 410px;
   position: relative;
@@ -30,7 +30,7 @@
           box-shadow: 5px 10px #04557b;
 }
 
-.container-about div h1 {
+.container-about-end div h1 {
   text-transform: uppercase;
   font-size: 2.25rem;
   position: relative;
@@ -38,13 +38,63 @@
   margin-right: 2rem;
 }
 
-.container-about div p {
+.container-about-end div p {
   font-size: 1.25rem;
   margin-left: 2rem;
   margin-right: 2rem;
 }
 
-.container-about div p a {
+.container-about-end div p a {
+  color: #04557b;
+}
+
+.container-about-end {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin-top: 8rem;
+  margin-bottom: 14rem;
+  color: #f2f2f2;
+}
+
+.container-about-end img {
+  width: 28%;
+  height: auto;
+}
+
+.container-about-end div {
+  width: 550px;
+  height: 410px;
+  position: relative;
+  color: #0899dd;
+  background: #f2f2f2;
+  border-radius: 25px;
+  border: 1px solid;
+  padding: 10px;
+  -webkit-box-shadow: 5px 10px #04557b;
+          box-shadow: 5px 10px #04557b;
+}
+
+.container-about-end div h1 {
+  text-transform: uppercase;
+  font-size: 2.25rem;
+  position: relative;
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+
+.container-about-end div p {
+  font-size: 1.25rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+
+.container-about-end div p a {
   color: #04557b;
 }
 
