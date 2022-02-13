@@ -48,7 +48,7 @@
   color: #04557b;
 }
 
-.container-about-end {
+.container-about {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -62,12 +62,12 @@
   color: #f2f2f2;
 }
 
-.container-about-end img {
+.container-about img {
   width: 28%;
   height: auto;
 }
 
-.container-about-end div {
+.container-about div {
   width: 550px;
   height: 410px;
   position: relative;
@@ -80,7 +80,7 @@
           box-shadow: 5px 10px #04557b;
 }
 
-.container-about-end div h1 {
+.container-about div h1 {
   text-transform: uppercase;
   font-size: 2.25rem;
   position: relative;
@@ -88,13 +88,13 @@
   margin-right: 2rem;
 }
 
-.container-about-end div p {
+.container-about div p {
   font-size: 1.25rem;
   margin-left: 2rem;
   margin-right: 2rem;
 }
 
-.container-about-end div p a {
+.container-about div p a {
   color: #04557b;
 }
 
@@ -108,7 +108,7 @@
   -ms-flex-pack: distribute;
       justify-content: space-around;
   margin-top: 8rem;
-  margin-bottom: 8rem;
+  margin-bottom: 14rem;
   color: #f2f2f2;
   text-align: center;
 }
