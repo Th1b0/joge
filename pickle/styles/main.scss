@@ -1,42 +1,4 @@
-.container-about-end {
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
 
-  margin-top: 8rem;
-  margin-bottom: 14rem;
-  color: #f2f2f2;
-  img {
-    width: 28%;
-    height: auto;
-  }
-  div {
-    width: 550px;
-    height: 410px;
-    position: relative;
-    color: #0899dd;
-    background: #f2f2f2;
-    border-radius: 25px;
-    border: 1px solid;
-    padding: 10px;
-    box-shadow: 5px 10px #04557b;
-    h1 {
-      text-transform: uppercase;
-      font-size: 2.25rem;
-      position: relative;
-      margin-left: 2rem;
-      margin-right: 2rem;
-    }
-    p {
-      font-size: 1.25rem;
-      margin-left: 2rem;
-      margin-right: 2rem;
-      a {
-        color: #04557b;
-      }
-    }
-  }
-}
 
 .container-about {
   display: flex;
