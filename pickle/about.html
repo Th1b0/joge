@@ -3,28 +3,45 @@
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="../styles/nav.css">
   <link rel="stylesheet" href="../styles/main.css">
   <link rel="icon" type="image/x-icon" href="../images/logo_rounded.png">
   <script src="https://kit.fontawesome.com/f0c1f654eb.js" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="./styles/main.css">
   <link rel="stylesheet" href="../styles/footer.css">
+  
   <title>About</title>
 </head>
 <body>
+  <div id="menu" class="menu">
+    <i id="close" class="fa-solid close fa-xmark"></i>
+    <ul class="nav-items-mobile">
+
+      <li><a class="ani" href="../index.html">Home</a></li>
+      <li><a class="ani" href="./about.html">About</a></li>
+      <li><a class="ani" href="./team.html">Team</a></li>
+      <li><a class="ani" href="https://opensea.io/Polyfinn">Opensea</a></li>
+    </ul>
+  </div>
   <nav class="nav-container">
     <img class="logo" src="../images/logo_rounded.png" alt="">
+    <i id="open" class="fa-solid fa-bars"></i>
+
+    
+
     <ul class="nav-items">
       <li><a class="ani" href="../index.html">Home</a></li>
       <li><a class="ani" href="./about.html">About</a></li>
       <li><a class="ani" href="./team.html">Team</a></li>
-      <li><a class="ani" href="">Opensea</a></li>
+      <li><a class="ani" href="https://opensea.io/Polyfinn">Opensea</a></li>
     </ul>
   </nav>
+
+
   <section class="container-about">
     <img src="../images/what_is_de_turtl_collection.png" alt="">
-    <div>
+    <div class="container">
       <h1>
         What is the Turtl collection?
       </h1>
@@ -35,8 +52,8 @@
     </section>
 
     <section class="container-about">
-
-      <div>
+      <img class="img-opensea" src="../images/opensea_photo.png" alt="">
+      <div class="container">
         <h1>
           What is Opensea?
         </h1>
@@ -44,7 +61,7 @@
           Opensea has 600,000 user across the world. It is the most common marketplace to buy, sell and collect NFTs. The Turtl Collection can also be found on opensea.
         </p>
       </div>
-      <img src="../images/opensea_photo.png" alt="">
+      <img class="img-opensea-pc" src="../images/opensea_photo.png" alt="">
       
       </section>
 
@@ -52,7 +69,7 @@
 
         <img src="../images/terms_of_service.png" alt="">
 
-        <div>
+        <div class="container">
           <h1>
             Opensea terms of service?
           </h1>
@@ -75,4 +92,5 @@
       <a class="copy" href="">Kuijpers Thibo © 2022 All Rights Reserved.</i> </a>
     </footer>
 </body>
+<script src="../js/mobile.js"></script>
 </html>
