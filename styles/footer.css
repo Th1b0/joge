@@ -2,6 +2,10 @@
   color: #0899dd;
   background: white;
   text-align: center;
+  position: absolute;
+  bottom: -70%;
+  width: 100%;
+  height: 80px;
 }
 
 .footer a {
