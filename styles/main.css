@@ -12,6 +12,10 @@ body, html {
   display: none;
 }
 
+.cursor {
+  cursor: pointer;
+}
+
 ::-webkit-scrollbar {
   width: 8px;
   height: 8px;
