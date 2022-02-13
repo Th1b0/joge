@@ -125,6 +125,12 @@ body, html {
 
   .container-about {
     flex-direction: column;
+  }
+
+    .container-about-end {
+      flex-direction: column;
+    }
+
     
     .img-opensea-pc {
       display: none;
@@ -148,7 +154,6 @@ body, html {
   }
   }
 
-}
 
 @media screen and (max-width: 600px) { 
   

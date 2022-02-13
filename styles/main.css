@@ -147,13 +147,19 @@ body, html {
         -ms-flex-direction: column;
             flex-direction: column;
   }
-  .container-about .img-opensea-pc {
+  .container-about-end {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .img-opensea-pc {
     display: none;
   }
-  .container-about .img-opensea {
+  .img-opensea {
     display: block;
   }
-  .container-about .container {
+  .container {
     width: 350px;
     height: 525px;
     position: relative;
