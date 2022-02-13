@@ -1,7 +1,4 @@
-body {
-  display:flex; 
-  flex-direction:column; 
-}
+
 
 
 footer {
@@ -11,6 +8,10 @@ footer {
   align-items: center;
   justify-content: center;
   margin-top:auto;
+  clear: both;
+    position: relative;
+    height: 100px;
+    margin-top: -0px;
   
   .socials {
     color: #0899dd;

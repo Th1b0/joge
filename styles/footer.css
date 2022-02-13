@@ -1,13 +1,3 @@
-body {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-}
-
 footer {
   background: #F2F2F2;
   display: -webkit-box;
@@ -24,6 +14,10 @@ footer {
       -ms-flex-pack: center;
           justify-content: center;
   margin-top: auto;
+  clear: both;
+  position: relative;
+  height: 100px;
+  margin-top: -0px;
 }
 
 footer .socials {
