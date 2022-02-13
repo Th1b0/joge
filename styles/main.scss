@@ -4,8 +4,8 @@ body, html {
   background: #0899dd;
   box-sizing: border-box;
   font-family: sans-serif;
-  height: 100vh;
-  
+  body{ height:100vh; margin:0; }
+
 }
 .menu {
   display: none;
@@ -184,8 +184,16 @@ body, html {
       }
     }
   }
+  footer {
+    background: #F2F2F2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top:auto;
 
   .menu {
     display: none;
   }
+}
 }
