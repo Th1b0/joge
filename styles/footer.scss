@@ -1,31 +1,9 @@
-
-
-
-footer {
-  background: #F2F2F2;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  margin-top:auto;
-  clear: both;
-    position: relative;
-    height: 100px;
-    margin-top: -0px;
-    background: white;
-  
-  .socials {
-    color: #0899dd;
-    justify-self: center;
-    font-size: 1.3rem;
-    margin-top: 1.5rem;
-  }
-  .copy {
-
-    font-size: 1rem;
-    text-decoration: none;
-  }
+.footer {
+  color: #0899dd;
+  background: white;
+  text-align: center;
   a {
+    text-decoration: none;
     color: #0899dd;
   }
 }
