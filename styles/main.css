@@ -236,6 +236,7 @@ body body, html body {
         -ms-flex-pack: center;
             justify-content: center;
     margin-top: auto;
+    margin-top: 6rem;
   }
   footer .menu {
     display: none;
