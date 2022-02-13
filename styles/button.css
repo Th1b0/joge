@@ -1,6 +1,6 @@
 .button {
   margin-top: 4rem;
-  margin-bottom: 4rem;
+  margin-bottom: 12rem;
   display: inline-block;
   padding: .75rem 1.25rem;
   border-radius: 10rem;
@@ -50,5 +50,11 @@
 
 .button:hover:before {
   width: 100%;
+}
+
+@media screen and (max-width: 600px) {
+  .button {
+    margin-bottom: 4rem;
+  }
 }
 /*# sourceMappingURL=button.css.map */
