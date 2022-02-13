@@ -5,11 +5,7 @@ body, html {
   box-sizing: border-box;
   font-family: sans-serif;
 
-  body {
-    margin:0;
-   padding:0;
-   height:100%;
-  }
+
 
 }
 
@@ -190,17 +186,4 @@ body, html {
       }
     }
   }
-  footer {
-    background: #F2F2F2;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    margin-top:auto;
-    margin-bottom: 6rem;
-
-  .menu {
-    display: none;
-  }
-}
 }
